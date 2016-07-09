@@ -20,6 +20,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
 
     @IBOutlet weak var falseAnswersLabel: UILabel!
     @IBOutlet weak var rightAnswersLabel: UILabel!
+    @IBOutlet weak var timeLabel: UILabel!
     var audioPlayer = AVAudioPlayer()
     
     var nameOfSound = ""
@@ -27,7 +28,18 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     var falseAnswersNum : Int = 0
     var rightAnswersNum : Int = 0
     
+    
+    var sec : Int = 0
+    var min : Int  = 0
+    
+    
     @IBOutlet weak var Back: UIImageView!
+    
+    @IBAction func goBack(sender: AnyObject) {
+        self.dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    
     
     override func viewDidLoad() {
         Back.image = UIImage(named: "1.png")
@@ -48,6 +60,34 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
        // loadMyView()
         setDefault()
         newTask()
+        _ = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: #selector(self.updateTime), userInfo: nil, repeats: true)
+    }
+    
+    func updateTime()
+    {
+        sec = sec + 1
+        if( sec == 60)
+        {
+            min = min + 1
+        }
+        var minPart = ""
+        var secPart = ""
+        if(min < 10)
+        {
+            minPart = "0\(min)"
+        }
+        else {
+            minPart = "\(min)"
+        }
+        if(sec < 10)
+        {
+            secPart = "0\(sec)"
+        }
+        else {
+            secPart = "\(sec)"
+        }
+        
+        timeLabel.text = "\(minPart):\(secPart)"
     }
     
     var isPlaying : Bool = false

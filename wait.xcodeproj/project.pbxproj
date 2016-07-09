@@ -80,6 +80,8 @@
 		21078EF21D319E340072E2CB /* West Country.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078ED51D319E340072E2CB /* West Country.png */; };
 		21078EF31D319E340072E2CB /* West Midlands.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078ED61D319E340072E2CB /* West Midlands.png */; };
 		21078EF41D319E340072E2CB /* Yorkshire.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078ED71D319E340072E2CB /* Yorkshire.png */; };
+		2192332F1D31B6B6002BC866 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2192332E1D31B6B6002BC866 /* SecondView.swift */; };
+		219233311D31BAEF002BC866 /* 2back.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233301D31BAEF002BC866 /* 2back.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -158,6 +160,8 @@
 		21078ED51D319E340072E2CB /* West Country.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "West Country.png"; sourceTree = "<group>"; };
 		21078ED61D319E340072E2CB /* West Midlands.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "West Midlands.png"; sourceTree = "<group>"; };
 		21078ED71D319E340072E2CB /* Yorkshire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yorkshire.png; sourceTree = "<group>"; };
+		2192332E1D31B6B6002BC866 /* SecondView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		219233301D31BAEF002BC866 /* 2back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2back.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +199,7 @@
 				210787071D3125160072E2CB /* AppDelegate.swift */,
 				21078EB81D3180930072E2CB /* Dialects.swift */,
 				2107871B1D312FF70072E2CB /* back.jpg */,
+				219233301D31BAEF002BC866 /* 2back.png */,
 				21078E711D316D400072E2CB /* backbut.png */,
 				21078E771D317A6D0072E2CB /* play.png */,
 				21078E791D317ABD0072E2CB /* stop.png */,
@@ -204,6 +209,7 @@
 				21078E6F1D315B490072E2CB /* 1.png */,
 				210787091D3125160072E2CB /* ViewController.swift */,
 				210787191D3127850072E2CB /* MainController.swift */,
+				2192332E1D31B6B6002BC866 /* SecondView.swift */,
 				2107870B1D3125160072E2CB /* Main.storyboard */,
 				2107870E1D3125160072E2CB /* Assets.xcassets */,
 				210787101D3125160072E2CB /* LaunchScreen.storyboard */,
@@ -390,6 +396,7 @@
 				2107871C1D312FF70072E2CB /* back.jpg in Resources */,
 				21078EDD1D319E340072E2CB /* Cumbrian.png in Resources */,
 				21078E7A1D317ABD0072E2CB /* stop.png in Resources */,
+				219233311D31BAEF002BC866 /* 2back.png in Resources */,
 				21078E7F1D317E4E0072E2CB /* Anglo-Cornish.mp3 in Resources */,
 				210787121D3125160072E2CB /* LaunchScreen.storyboard in Resources */,
 				21078EA61D317E630072E2CB /* Scouse.mp3 in Resources */,
@@ -457,6 +464,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2107870A1D3125160072E2CB /* ViewController.swift in Sources */,
+				2192332F1D31B6B6002BC866 /* SecondView.swift in Sources */,
 				2107871A1D3127850072E2CB /* MainController.swift in Sources */,
 				21078EB91D3180930072E2CB /* Dialects.swift in Sources */,
 				210787081D3125160072E2CB /* AppDelegate.swift in Sources */,
@@ -617,6 +625,7 @@
 				210787181D3125160072E2CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
