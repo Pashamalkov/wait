@@ -102,6 +102,14 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     
     var isPlaying : Bool = false
     
+    
+    func audioPlayerDidFinishPlaying(player: AVAudioPlayer, successfully flag: Bool) {
+        audioPlayer.currentTime = 0.0
+        isPlaying = false
+        playBut.setImage( UIImage(named: "play.png"), forState: .Normal)
+    }
+    
+    
     @IBAction func playButton(sender: AnyObject) {
         
 

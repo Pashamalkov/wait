@@ -354,7 +354,7 @@
             </objects>
             <point key="canvasLocation" x="1341.5" y="-237.5"/>
         </scene>
-        <!--Test3-->
+        <!--Table Controller-->
         <scene sceneID="3oz-dg-EWP">
             <objects>
                 <viewController id="Yai-d5-yhU" customClass="TableController" customModule="wait" customModuleProvider="target" sceneMemberID="viewController">
@@ -405,16 +405,6 @@
                                             <outlet property="mapLabel" destination="tL1-4I-NHT" id="9Ky-lM-kc3"/>
                                         </connections>
                                     </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="olh-UI-3Ue">
-                                        <rect key="frame" x="161" y="0.0" width="157" height="257"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="157" height="257"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        </view>
-                                        <size key="customSize" width="157" height="257"/>
-                                    </collectionViewCell>
                                 </cells>
                             </collectionView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="gdR-yf-647">
@@ -422,35 +412,161 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="back3.png"/>
                                 <connections>
+                                    <action selector="Back:" destination="Yai-d5-yhU" eventType="touchUpInside" id="QCX-md-l2O"/>
                                     <action selector="back:" destination="TNr-dH-d8B" eventType="touchUpInside" id="J8C-Oi-YXm"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" id="k3l-QE-xzQ">
+                                <rect key="frame" x="29" y="60" width="316" height="569"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="PaN-50-Fd8">
+                                        <rect key="frame" x="273" y="8" width="35" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="close.png"/>
+                                        <connections>
+                                            <action selector="CloseBar:" destination="Yai-d5-yhU" eventType="touchUpInside" id="AI6-FK-FWq"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" tag="8" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="m5Z-c6-W5F">
+                                        <rect key="frame" x="61" y="23" width="195" height="260"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" id="gkh-uI-KWj">
+                                        <rect key="frame" x="16" y="306" width="283" height="187"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Zjh-cc-fBy">
+                                        <rect key="frame" x="61" y="508" width="35" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="play3.png"/>
+                                        <connections>
+                                            <action selector="playButton:" destination="bgu-Cg-xSu" eventType="touchUpInside" id="Tmf-n0-HXg"/>
+                                            <action selector="playButton:" destination="Yai-d5-yhU" eventType="touchUpInside" id="YBM-Iv-TbK"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="DetailBar" destination="k3l-QE-xzQ" id="amn-G9-YWU"/>
+                        <outlet property="DetailIMage" destination="m5Z-c6-W5F" id="18H-WQ-9Co"/>
+                        <outlet property="DetailText" destination="gkh-uI-KWj" id="lEw-II-Ghb"/>
+                        <outlet property="back" destination="Ks0-9E-FrL" id="tSW-3h-9he"/>
+                        <outlet property="closeBar" destination="PaN-50-Fd8" id="a1t-gG-0vt"/>
+                        <outlet property="myCollectionView" destination="dKk-PK-ZlR" id="KD7-Ff-wxq"/>
+                        <outlet property="playButton" destination="Zjh-cc-fBy" id="aTd-qk-xMf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RCY-Ql-4R6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1389.5" y="519.5"/>
+        </scene>
+        <!--Detailed Viewcontroller-->
+        <scene sceneID="KEL-X6-srQ">
+            <objects>
+                <viewController storyboardIdentifier="details" useStoryboardIdentifierAsRestorationIdentifier="YES" id="O3O-aX-UzF" customClass="DetailedViewcontroller" customModule="wait" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DQD-MI-fhE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="3jP-bq-6Bx">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="5UJ-NP-Fhf">
+                                <rect key="frame" x="15" y="31" width="35" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="back3.png"/>
+                                <connections>
+                                    <action selector="back:" destination="TNr-dH-d8B" eventType="touchUpInside" id="c4S-bo-pMv"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" id="hHu-Ij-FnB">
+                                <rect key="frame" x="35" y="66" width="305" height="556"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="MYview" destination="hHu-Ij-FnB" id="vvz-Mt-IOV"/>
+                        <outlet property="back" destination="3jP-bq-6Bx" id="d5n-eC-uPE"/>
+                        <outlet property="backBut" destination="5UJ-NP-Fhf" id="Alx-Pu-C4t"/>
+                        <outlet property="view" destination="hHu-Ij-FnB" id="rHB-Wb-GKt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zbd-Kf-Lvf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2022.5" y="519.5"/>
+        </scene>
+        <!--Map Controller-->
+        <scene sceneID="xxA-63-7n0">
+            <objects>
+                <viewController id="WwT-je-ZyI" customClass="MapController" customModule="wait" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tVh-iP-kGl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="2Ql-Vh-c5Q">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" id="vXz-eF-lD8">
+                                <rect key="frame" x="30" y="48" width="314" height="591"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Ixv-lE-DHf">
+                                <rect key="frame" x="53" y="68" width="269" height="551"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="JXD-Et-cQ8">
+                                <rect key="frame" x="10" y="25" width="35" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="4back.png"/>
+                                <connections>
+                                    <action selector="goBack:" destination="WwT-je-ZyI" eventType="touchUpInside" id="bRD-Ha-rso"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Jhj-Wn-pY1">
+                                <rect key="frame" x="53" y="25" width="35" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="play4.png"/>
+                                <connections>
+                                    <action selector="playButton:" destination="bgu-Cg-xSu" eventType="touchUpInside" id="5Gy-C8-h4a"/>
+                                    <action selector="playButton:" destination="WwT-je-ZyI" eventType="touchUpInside" id="reB-6S-opI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="tp2-lU-XRC">
+                                <rect key="frame" x="96" y="25" width="35" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="stop4.png"/>
+                                <connections>
+                                    <action selector="Stop:" destination="WwT-je-ZyI" eventType="touchUpInside" id="KM0-aK-8Rp"/>
+                                    <action selector="stopPlaying:" destination="bgu-Cg-xSu" eventType="touchUpInside" id="RpD-eI-7dx"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Test3" id="CUH-qC-3iO"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="back" destination="Ks0-9E-FrL" id="tSW-3h-9he"/>
-                        <outlet property="myCollectionView" destination="dKk-PK-ZlR" id="KD7-Ff-wxq"/>
+                        <outlet property="Back" destination="2Ql-Vh-c5Q" id="mKf-1A-ivg"/>
+                        <outlet property="MapView" destination="Ixv-lE-DHf" id="vf2-k0-ZL8"/>
+                        <outlet property="playBut" destination="Jhj-Wn-pY1" id="bqz-OW-ruz"/>
                     </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="RCY-Ql-4R6" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1341.5" y="499.5"/>
-        </scene>
-        <!--Map-->
-        <scene sceneID="xxA-63-7n0">
-            <objects>
-                <viewController id="WwT-je-ZyI" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="tVh-iP-kGl">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Map" id="6K8-7j-MOe"/>
-                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ig3-O2-NNR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -460,13 +576,18 @@
     <resources>
         <image name="2back.png" width="754" height="1348"/>
         <image name="2backbut.png" width="54" height="54"/>
+        <image name="4back.png" width="54" height="54"/>
         <image name="back3.png" width="54" height="54"/>
         <image name="backbut.png" width="54" height="54"/>
+        <image name="close.png" width="54" height="54"/>
         <image name="graycircle.png" width="54" height="54"/>
         <image name="play.png" width="54" height="54"/>
+        <image name="play3.png" width="54" height="54"/>
+        <image name="play4.png" width="54" height="54"/>
         <image name="redcircle.png" width="54" height="54"/>
         <image name="restart.png" width="54" height="54"/>
         <image name="right.png" width="54" height="54"/>
         <image name="stop.png" width="54" height="54"/>
+        <image name="stop4.png" width="54" height="54"/>
     </resources>
 </document>

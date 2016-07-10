@@ -50,35 +50,6 @@
 		21078EB51D317E7A0072E2CB /* Yorkshire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21078EAF1D317E7A0072E2CB /* Yorkshire.mp3 */; };
 		21078EB71D317E810072E2CB /* Ulster English.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21078EB61D317E810072E2CB /* Ulster English.mp3 */; };
 		21078EB91D3180930072E2CB /* Dialects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21078EB81D3180930072E2CB /* Dialects.swift */; };
-		21078ED81D319E340072E2CB /* Anglo-Cornish.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078EBB1D319E340072E2CB /* Anglo-Cornish.png */; };
-		21078ED91D319E340072E2CB /* Bristol.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078EBC1D319E340072E2CB /* Bristol.png */; };
-		21078EDA1D319E340072E2CB /* Brummie.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078EBD1D319E340072E2CB /* Brummie.png */; };
-		21078EDB1D319E340072E2CB /* Cambridgeshire.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078EBE1D319E340072E2CB /* Cambridgeshire.png */; };
-		21078EDC1D319E340072E2CB /* Cockney.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078EBF1D319E340072E2CB /* Cockney.png */; };
-		21078EDD1D319E340072E2CB /* Cumbrian.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078EC01D319E340072E2CB /* Cumbrian.png */; };
-		21078EDE1D319E340072E2CB /* Devon.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078EC11D319E340072E2CB /* Devon.png */; };
-		21078EDF1D319E340072E2CB /* East Midlands.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078EC21D319E340072E2CB /* East Midlands.png */; };
-		21078EE01D319E340072E2CB /* Geordie.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078EC31D319E340072E2CB /* Geordie.png */; };
-		21078EE11D319E340072E2CB /* Highland Scottish.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078EC41D319E340072E2CB /* Highland Scottish.png */; };
-		21078EE21D319E340072E2CB /* Kent.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078EC51D319E340072E2CB /* Kent.png */; };
-		21078EE31D319E340072E2CB /* Lancashire.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078EC61D319E340072E2CB /* Lancashire.png */; };
-		21078EE41D319E340072E2CB /* Mancunian.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078EC71D319E340072E2CB /* Mancunian.png */; };
-		21078EE51D319E340072E2CB /* Manx English.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078EC81D319E340072E2CB /* Manx English.png */; };
-		21078EE61D319E340072E2CB /* Norfolk.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078EC91D319E340072E2CB /* Norfolk.png */; };
-		21078EE71D319E340072E2CB /* Northumbrian.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078ECA1D319E340072E2CB /* Northumbrian.png */; };
-		21078EE81D319E340072E2CB /* Pitmatic.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078ECB1D319E340072E2CB /* Pitmatic.png */; };
-		21078EE91D319E340072E2CB /* Protteries.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078ECC1D319E340072E2CB /* Protteries.png */; };
-		21078EEA1D319E340072E2CB /* Scots.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078ECD1D319E340072E2CB /* Scots.png */; };
-		21078EEB1D319E340072E2CB /* Scouse.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078ECE1D319E340072E2CB /* Scouse.png */; };
-		21078EEC1D319E340072E2CB /* South East.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078ECF1D319E340072E2CB /* South East.png */; };
-		21078EED1D319E340072E2CB /* Suffolk.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078ED01D319E340072E2CB /* Suffolk.png */; };
-		21078EEE1D319E340072E2CB /* Sussex.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078ED11D319E340072E2CB /* Sussex.png */; };
-		21078EEF1D319E340072E2CB /* Ulster English.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078ED21D319E340072E2CB /* Ulster English.png */; };
-		21078EF01D319E340072E2CB /* Ulster Scots.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078ED31D319E340072E2CB /* Ulster Scots.png */; };
-		21078EF11D319E340072E2CB /* Welsh English.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078ED41D319E340072E2CB /* Welsh English.png */; };
-		21078EF21D319E340072E2CB /* West Country.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078ED51D319E340072E2CB /* West Country.png */; };
-		21078EF31D319E340072E2CB /* West Midlands.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078ED61D319E340072E2CB /* West Midlands.png */; };
-		21078EF41D319E340072E2CB /* Yorkshire.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078ED71D319E340072E2CB /* Yorkshire.png */; };
 		2192332F1D31B6B6002BC866 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2192332E1D31B6B6002BC866 /* SecondView.swift */; };
 		219233311D31BAEF002BC866 /* 2back.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233301D31BAEF002BC866 /* 2back.png */; };
 		219233331D31C6B8002BC866 /* 2backbut.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233321D31C6B8002BC866 /* 2backbut.png */; };
@@ -91,6 +62,45 @@
 		219233411D31E5B3002BC866 /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219233401D31E5B3002BC866 /* TableController.swift */; };
 		219233431D31E76C002BC866 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219233421D31E76C002BC866 /* MyCell.swift */; };
 		219233451D31EC80002BC866 /* back3.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233441D31EC7F002BC866 /* back3.png */; };
+		2192334B1D31FA54002BC866 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 2192334A1D31FA54002BC866 /* close.png */; };
+		2192334D1D3203AE002BC866 /* play3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2192334C1D3203AE002BC866 /* play3.png */; };
+		2192334F1D3203B4002BC866 /* pause3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2192334E1D3203B4002BC866 /* pause3.png */; };
+		219233511D3206FB002BC866 /* back4.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233501D3206FB002BC866 /* back4.png */; };
+		219233531D320713002BC866 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219233521D320713002BC866 /* MapController.swift */; };
+		219233731D320AFB002BC866 /* Anglo-Cornish.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233551D320AFB002BC866 /* Anglo-Cornish.png */; };
+		219233741D320AFB002BC866 /* Bristol.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233561D320AFB002BC866 /* Bristol.png */; };
+		219233751D320AFB002BC866 /* Brummie.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233571D320AFB002BC866 /* Brummie.png */; };
+		219233761D320AFB002BC866 /* Cambridgeshire.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233581D320AFB002BC866 /* Cambridgeshire.png */; };
+		219233771D320AFB002BC866 /* Cockney.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233591D320AFB002BC866 /* Cockney.png */; };
+		219233781D320AFB002BC866 /* Cumbrian.png in Resources */ = {isa = PBXBuildFile; fileRef = 2192335A1D320AFB002BC866 /* Cumbrian.png */; };
+		219233791D320AFB002BC866 /* Devon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2192335B1D320AFB002BC866 /* Devon.png */; };
+		2192337A1D320AFB002BC866 /* East Midlands.png in Resources */ = {isa = PBXBuildFile; fileRef = 2192335C1D320AFB002BC866 /* East Midlands.png */; };
+		2192337B1D320AFB002BC866 /* Geordie.png in Resources */ = {isa = PBXBuildFile; fileRef = 2192335D1D320AFB002BC866 /* Geordie.png */; };
+		2192337C1D320AFB002BC866 /* Highland Scottish.png in Resources */ = {isa = PBXBuildFile; fileRef = 2192335E1D320AFB002BC866 /* Highland Scottish.png */; };
+		2192337D1D320AFB002BC866 /* Kent.png in Resources */ = {isa = PBXBuildFile; fileRef = 2192335F1D320AFB002BC866 /* Kent.png */; };
+		2192337E1D320AFB002BC866 /* Lancashire.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233601D320AFB002BC866 /* Lancashire.png */; };
+		2192337F1D320AFB002BC866 /* Mancunian.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233611D320AFB002BC866 /* Mancunian.png */; };
+		219233801D320AFB002BC866 /* Manx English.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233621D320AFB002BC866 /* Manx English.png */; };
+		219233811D320AFB002BC866 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233631D320AFB002BC866 /* map.png */; };
+		219233821D320AFB002BC866 /* Norfolk.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233641D320AFB002BC866 /* Norfolk.png */; };
+		219233831D320AFB002BC866 /* Northumbrian.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233651D320AFB002BC866 /* Northumbrian.png */; };
+		219233841D320AFB002BC866 /* Pitmatic.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233661D320AFB002BC866 /* Pitmatic.png */; };
+		219233851D320AFB002BC866 /* Protteries.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233671D320AFB002BC866 /* Protteries.png */; };
+		219233861D320AFB002BC866 /* Scots.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233681D320AFB002BC866 /* Scots.png */; };
+		219233871D320AFB002BC866 /* Scouse.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233691D320AFB002BC866 /* Scouse.png */; };
+		219233881D320AFB002BC866 /* South East.png in Resources */ = {isa = PBXBuildFile; fileRef = 2192336A1D320AFB002BC866 /* South East.png */; };
+		219233891D320AFB002BC866 /* Suffolk.png in Resources */ = {isa = PBXBuildFile; fileRef = 2192336B1D320AFB002BC866 /* Suffolk.png */; };
+		2192338A1D320AFB002BC866 /* Sussex.png in Resources */ = {isa = PBXBuildFile; fileRef = 2192336C1D320AFB002BC866 /* Sussex.png */; };
+		2192338B1D320AFB002BC866 /* Ulster English.png in Resources */ = {isa = PBXBuildFile; fileRef = 2192336D1D320AFB002BC866 /* Ulster English.png */; };
+		2192338C1D320AFB002BC866 /* Ulster Scots.png in Resources */ = {isa = PBXBuildFile; fileRef = 2192336E1D320AFB002BC866 /* Ulster Scots.png */; };
+		2192338D1D320AFB002BC866 /* Welsh English.png in Resources */ = {isa = PBXBuildFile; fileRef = 2192336F1D320AFB002BC866 /* Welsh English.png */; };
+		2192338E1D320AFB002BC866 /* West Country.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233701D320AFB002BC866 /* West Country.png */; };
+		2192338F1D320AFB002BC866 /* West Midlands.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233711D320AFB002BC866 /* West Midlands.png */; };
+		219233901D320AFB002BC866 /* Yorkshire.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233721D320AFB002BC866 /* Yorkshire.png */; };
+		219233921D320DC0002BC866 /* play4.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233911D320DC0002BC866 /* play4.png */; };
+		219233941D320DC5002BC866 /* pause4.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233931D320DC5002BC866 /* pause4.png */; };
+		219233961D320DE2002BC866 /* 4back.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233951D320DE2002BC866 /* 4back.png */; };
+		219233981D320DED002BC866 /* stop4.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233971D320DED002BC866 /* stop4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -139,35 +149,6 @@
 		21078EAF1D317E7A0072E2CB /* Yorkshire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Yorkshire.mp3; sourceTree = "<group>"; };
 		21078EB61D317E810072E2CB /* Ulster English.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ulster English.mp3"; sourceTree = "<group>"; };
 		21078EB81D3180930072E2CB /* Dialects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dialects.swift; sourceTree = "<group>"; };
-		21078EBB1D319E340072E2CB /* Anglo-Cornish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Anglo-Cornish.png"; sourceTree = "<group>"; };
-		21078EBC1D319E340072E2CB /* Bristol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bristol.png; sourceTree = "<group>"; };
-		21078EBD1D319E340072E2CB /* Brummie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brummie.png; sourceTree = "<group>"; };
-		21078EBE1D319E340072E2CB /* Cambridgeshire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cambridgeshire.png; sourceTree = "<group>"; };
-		21078EBF1D319E340072E2CB /* Cockney.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cockney.png; sourceTree = "<group>"; };
-		21078EC01D319E340072E2CB /* Cumbrian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cumbrian.png; sourceTree = "<group>"; };
-		21078EC11D319E340072E2CB /* Devon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Devon.png; sourceTree = "<group>"; };
-		21078EC21D319E340072E2CB /* East Midlands.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "East Midlands.png"; sourceTree = "<group>"; };
-		21078EC31D319E340072E2CB /* Geordie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Geordie.png; sourceTree = "<group>"; };
-		21078EC41D319E340072E2CB /* Highland Scottish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Highland Scottish.png"; sourceTree = "<group>"; };
-		21078EC51D319E340072E2CB /* Kent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kent.png; sourceTree = "<group>"; };
-		21078EC61D319E340072E2CB /* Lancashire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lancashire.png; sourceTree = "<group>"; };
-		21078EC71D319E340072E2CB /* Mancunian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mancunian.png; sourceTree = "<group>"; };
-		21078EC81D319E340072E2CB /* Manx English.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Manx English.png"; sourceTree = "<group>"; };
-		21078EC91D319E340072E2CB /* Norfolk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Norfolk.png; sourceTree = "<group>"; };
-		21078ECA1D319E340072E2CB /* Northumbrian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Northumbrian.png; sourceTree = "<group>"; };
-		21078ECB1D319E340072E2CB /* Pitmatic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pitmatic.png; sourceTree = "<group>"; };
-		21078ECC1D319E340072E2CB /* Protteries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Protteries.png; sourceTree = "<group>"; };
-		21078ECD1D319E340072E2CB /* Scots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Scots.png; sourceTree = "<group>"; };
-		21078ECE1D319E340072E2CB /* Scouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Scouse.png; sourceTree = "<group>"; };
-		21078ECF1D319E340072E2CB /* South East.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "South East.png"; sourceTree = "<group>"; };
-		21078ED01D319E340072E2CB /* Suffolk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Suffolk.png; sourceTree = "<group>"; };
-		21078ED11D319E340072E2CB /* Sussex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sussex.png; sourceTree = "<group>"; };
-		21078ED21D319E340072E2CB /* Ulster English.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ulster English.png"; sourceTree = "<group>"; };
-		21078ED31D319E340072E2CB /* Ulster Scots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ulster Scots.png"; sourceTree = "<group>"; };
-		21078ED41D319E340072E2CB /* Welsh English.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Welsh English.png"; sourceTree = "<group>"; };
-		21078ED51D319E340072E2CB /* West Country.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "West Country.png"; sourceTree = "<group>"; };
-		21078ED61D319E340072E2CB /* West Midlands.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "West Midlands.png"; sourceTree = "<group>"; };
-		21078ED71D319E340072E2CB /* Yorkshire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yorkshire.png; sourceTree = "<group>"; };
 		2192332E1D31B6B6002BC866 /* SecondView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		219233301D31BAEF002BC866 /* 2back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2back.png; sourceTree = "<group>"; };
 		219233321D31C6B8002BC866 /* 2backbut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2backbut.png; sourceTree = "<group>"; };
@@ -180,6 +161,45 @@
 		219233401D31E5B3002BC866 /* TableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
 		219233421D31E76C002BC866 /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
 		219233441D31EC7F002BC866 /* back3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back3.png; sourceTree = "<group>"; };
+		2192334A1D31FA54002BC866 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		2192334C1D3203AE002BC866 /* play3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play3.png; sourceTree = "<group>"; };
+		2192334E1D3203B4002BC866 /* pause3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause3.png; sourceTree = "<group>"; };
+		219233501D3206FB002BC866 /* back4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back4.png; sourceTree = "<group>"; };
+		219233521D320713002BC866 /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		219233551D320AFB002BC866 /* Anglo-Cornish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Anglo-Cornish.png"; sourceTree = "<group>"; };
+		219233561D320AFB002BC866 /* Bristol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bristol.png; sourceTree = "<group>"; };
+		219233571D320AFB002BC866 /* Brummie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brummie.png; sourceTree = "<group>"; };
+		219233581D320AFB002BC866 /* Cambridgeshire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cambridgeshire.png; sourceTree = "<group>"; };
+		219233591D320AFB002BC866 /* Cockney.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cockney.png; sourceTree = "<group>"; };
+		2192335A1D320AFB002BC866 /* Cumbrian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cumbrian.png; sourceTree = "<group>"; };
+		2192335B1D320AFB002BC866 /* Devon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Devon.png; sourceTree = "<group>"; };
+		2192335C1D320AFB002BC866 /* East Midlands.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "East Midlands.png"; sourceTree = "<group>"; };
+		2192335D1D320AFB002BC866 /* Geordie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Geordie.png; sourceTree = "<group>"; };
+		2192335E1D320AFB002BC866 /* Highland Scottish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Highland Scottish.png"; sourceTree = "<group>"; };
+		2192335F1D320AFB002BC866 /* Kent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kent.png; sourceTree = "<group>"; };
+		219233601D320AFB002BC866 /* Lancashire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lancashire.png; sourceTree = "<group>"; };
+		219233611D320AFB002BC866 /* Mancunian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mancunian.png; sourceTree = "<group>"; };
+		219233621D320AFB002BC866 /* Manx English.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Manx English.png"; sourceTree = "<group>"; };
+		219233631D320AFB002BC866 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		219233641D320AFB002BC866 /* Norfolk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Norfolk.png; sourceTree = "<group>"; };
+		219233651D320AFB002BC866 /* Northumbrian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Northumbrian.png; sourceTree = "<group>"; };
+		219233661D320AFB002BC866 /* Pitmatic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pitmatic.png; sourceTree = "<group>"; };
+		219233671D320AFB002BC866 /* Protteries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Protteries.png; sourceTree = "<group>"; };
+		219233681D320AFB002BC866 /* Scots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Scots.png; sourceTree = "<group>"; };
+		219233691D320AFB002BC866 /* Scouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Scouse.png; sourceTree = "<group>"; };
+		2192336A1D320AFB002BC866 /* South East.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "South East.png"; sourceTree = "<group>"; };
+		2192336B1D320AFB002BC866 /* Suffolk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Suffolk.png; sourceTree = "<group>"; };
+		2192336C1D320AFB002BC866 /* Sussex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sussex.png; sourceTree = "<group>"; };
+		2192336D1D320AFB002BC866 /* Ulster English.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ulster English.png"; sourceTree = "<group>"; };
+		2192336E1D320AFB002BC866 /* Ulster Scots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ulster Scots.png"; sourceTree = "<group>"; };
+		2192336F1D320AFB002BC866 /* Welsh English.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Welsh English.png"; sourceTree = "<group>"; };
+		219233701D320AFB002BC866 /* West Country.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "West Country.png"; sourceTree = "<group>"; };
+		219233711D320AFB002BC866 /* West Midlands.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "West Midlands.png"; sourceTree = "<group>"; };
+		219233721D320AFB002BC866 /* Yorkshire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yorkshire.png; sourceTree = "<group>"; };
+		219233911D320DC0002BC866 /* play4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play4.png; sourceTree = "<group>"; };
+		219233931D320DC5002BC866 /* pause4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause4.png; sourceTree = "<group>"; };
+		219233951D320DE2002BC866 /* 4back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4back.png; sourceTree = "<group>"; };
+		219233971D320DED002BC866 /* stop4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop4.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,7 +234,7 @@
 		210787061D3125160072E2CB /* wait */ = {
 			isa = PBXGroup;
 			children = (
-				21078EBA1D319E340072E2CB /* images */,
+				219233541D320AFB002BC866 /* images */,
 				21078E7D1D317E120072E2CB /* dialects */,
 				210787071D3125160072E2CB /* AppDelegate.swift */,
 				21078EB81D3180930072E2CB /* Dialects.swift */,
@@ -222,13 +242,21 @@
 				21078E711D316D400072E2CB /* backbut.png */,
 				219233361D31C7C6002BC866 /* restart.png */,
 				2192333C1D31D596002BC866 /* mainBack.png */,
+				219233501D3206FB002BC866 /* back4.png */,
 				219233341D31C6DB002BC866 /* graycircle.png */,
 				21078E771D317A6D0072E2CB /* play.png */,
 				219233321D31C6B8002BC866 /* 2backbut.png */,
 				219233441D31EC7F002BC866 /* back3.png */,
+				219233911D320DC0002BC866 /* play4.png */,
 				2192333E1D31E55C002BC866 /* 3back.png */,
+				219233951D320DE2002BC866 /* 4back.png */,
+				219233971D320DED002BC866 /* stop4.png */,
+				2192334A1D31FA54002BC866 /* close.png */,
 				21078E791D317ABD0072E2CB /* stop.png */,
+				219233931D320DC5002BC866 /* pause4.png */,
+				2192334E1D3203B4002BC866 /* pause3.png */,
 				21078E7B1D317C190072E2CB /* pause.png */,
+				2192334C1D3203AE002BC866 /* play3.png */,
 				21078E751D3178840072E2CB /* right.png */,
 				21078E731D3174AF0072E2CB /* redcircle.png */,
 				21078E6F1D315B490072E2CB /* 1.png */,
@@ -242,6 +270,7 @@
 				219233381D31D1D5002BC866 /* MyCustomSegue.swift */,
 				219233401D31E5B3002BC866 /* TableController.swift */,
 				219233421D31E76C002BC866 /* MyCell.swift */,
+				219233521D320713002BC866 /* MapController.swift */,
 			);
 			path = wait;
 			sourceTree = "<group>";
@@ -282,41 +311,42 @@
 			name = dialects;
 			sourceTree = "<group>";
 		};
-		21078EBA1D319E340072E2CB /* images */ = {
+		219233541D320AFB002BC866 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				21078EBB1D319E340072E2CB /* Anglo-Cornish.png */,
-				21078EBC1D319E340072E2CB /* Bristol.png */,
-				21078EBD1D319E340072E2CB /* Brummie.png */,
-				21078EBE1D319E340072E2CB /* Cambridgeshire.png */,
-				21078EBF1D319E340072E2CB /* Cockney.png */,
-				21078EC01D319E340072E2CB /* Cumbrian.png */,
-				21078EC11D319E340072E2CB /* Devon.png */,
-				21078EC21D319E340072E2CB /* East Midlands.png */,
-				21078EC31D319E340072E2CB /* Geordie.png */,
-				21078EC41D319E340072E2CB /* Highland Scottish.png */,
-				21078EC51D319E340072E2CB /* Kent.png */,
-				21078EC61D319E340072E2CB /* Lancashire.png */,
-				21078EC71D319E340072E2CB /* Mancunian.png */,
-				21078EC81D319E340072E2CB /* Manx English.png */,
-				21078EC91D319E340072E2CB /* Norfolk.png */,
-				21078ECA1D319E340072E2CB /* Northumbrian.png */,
-				21078ECB1D319E340072E2CB /* Pitmatic.png */,
-				21078ECC1D319E340072E2CB /* Protteries.png */,
-				21078ECD1D319E340072E2CB /* Scots.png */,
-				21078ECE1D319E340072E2CB /* Scouse.png */,
-				21078ECF1D319E340072E2CB /* South East.png */,
-				21078ED01D319E340072E2CB /* Suffolk.png */,
-				21078ED11D319E340072E2CB /* Sussex.png */,
-				21078ED21D319E340072E2CB /* Ulster English.png */,
-				21078ED31D319E340072E2CB /* Ulster Scots.png */,
-				21078ED41D319E340072E2CB /* Welsh English.png */,
-				21078ED51D319E340072E2CB /* West Country.png */,
-				21078ED61D319E340072E2CB /* West Midlands.png */,
-				21078ED71D319E340072E2CB /* Yorkshire.png */,
+				219233551D320AFB002BC866 /* Anglo-Cornish.png */,
+				219233561D320AFB002BC866 /* Bristol.png */,
+				219233571D320AFB002BC866 /* Brummie.png */,
+				219233581D320AFB002BC866 /* Cambridgeshire.png */,
+				219233591D320AFB002BC866 /* Cockney.png */,
+				2192335A1D320AFB002BC866 /* Cumbrian.png */,
+				2192335B1D320AFB002BC866 /* Devon.png */,
+				2192335C1D320AFB002BC866 /* East Midlands.png */,
+				2192335D1D320AFB002BC866 /* Geordie.png */,
+				2192335E1D320AFB002BC866 /* Highland Scottish.png */,
+				2192335F1D320AFB002BC866 /* Kent.png */,
+				219233601D320AFB002BC866 /* Lancashire.png */,
+				219233611D320AFB002BC866 /* Mancunian.png */,
+				219233621D320AFB002BC866 /* Manx English.png */,
+				219233631D320AFB002BC866 /* map.png */,
+				219233641D320AFB002BC866 /* Norfolk.png */,
+				219233651D320AFB002BC866 /* Northumbrian.png */,
+				219233661D320AFB002BC866 /* Pitmatic.png */,
+				219233671D320AFB002BC866 /* Protteries.png */,
+				219233681D320AFB002BC866 /* Scots.png */,
+				219233691D320AFB002BC866 /* Scouse.png */,
+				2192336A1D320AFB002BC866 /* South East.png */,
+				2192336B1D320AFB002BC866 /* Suffolk.png */,
+				2192336C1D320AFB002BC866 /* Sussex.png */,
+				2192336D1D320AFB002BC866 /* Ulster English.png */,
+				2192336E1D320AFB002BC866 /* Ulster Scots.png */,
+				2192336F1D320AFB002BC866 /* Welsh English.png */,
+				219233701D320AFB002BC866 /* West Country.png */,
+				219233711D320AFB002BC866 /* West Midlands.png */,
+				219233721D320AFB002BC866 /* Yorkshire.png */,
 			);
 			name = images;
-			path = "images 2";
+			path = "images 3";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,18 +441,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21078EEC1D319E340072E2CB /* South East.png in Resources */,
 				21078EA01D317E630072E2CB /* Manx English.mp3 in Resources */,
+				219233801D320AFB002BC866 /* Manx English.png in Resources */,
 				219233371D31C7C6002BC866 /* restart.png in Resources */,
-				21078EED1D319E340072E2CB /* Suffolk.png in Resources */,
-				21078ED81D319E340072E2CB /* Anglo-Cornish.png in Resources */,
 				21078E981D317E630072E2CB /* Cumbrian.mp3 in Resources */,
+				219233511D3206FB002BC866 /* back4.png in Resources */,
+				2192338B1D320AFB002BC866 /* Ulster English.png in Resources */,
 				21078EB21D317E7A0072E2CB /* Welsh English.mp3 in Resources */,
 				21078E971D317E630072E2CB /* Cockney.mp3 in Resources */,
-				21078EDB1D319E340072E2CB /* Cambridgeshire.png in Resources */,
+				219233771D320AFB002BC866 /* Cockney.png in Resources */,
+				2192337E1D320AFB002BC866 /* Lancashire.png in Resources */,
 				21078EB11D317E7A0072E2CB /* Ulster Scots.mp3 in Resources */,
-				21078EF11D319E340072E2CB /* Welsh English.png in Resources */,
-				21078EDD1D319E340072E2CB /* Cumbrian.png in Resources */,
 				219233451D31EC80002BC866 /* back3.png in Resources */,
 				21078E7A1D317ABD0072E2CB /* stop.png in Resources */,
 				219233311D31BAEF002BC866 /* 2back.png in Resources */,
@@ -432,60 +461,70 @@
 				210787121D3125160072E2CB /* LaunchScreen.storyboard in Resources */,
 				21078EA61D317E630072E2CB /* Scouse.mp3 in Resources */,
 				21078EA91D317E700072E2CB /* Sussex.mp3 in Resources */,
-				21078EE41D319E340072E2CB /* Mancunian.png in Resources */,
+				2192334F1D3203B4002BC866 /* pause3.png in Resources */,
 				21078E9F1D317E630072E2CB /* Mancunian.mp3 in Resources */,
+				219233851D320AFB002BC866 /* Protteries.png in Resources */,
+				219233921D320DC0002BC866 /* play4.png in Resources */,
+				219233751D320AFB002BC866 /* Brummie.png in Resources */,
 				21078E781D317A6D0072E2CB /* play.png in Resources */,
+				219233821D320AFB002BC866 /* Norfolk.png in Resources */,
 				21078E941D317E630072E2CB /* Bristol.mp3 in Resources */,
-				21078EDA1D319E340072E2CB /* Brummie.png in Resources */,
 				21078E7C1D317C190072E2CB /* pause.png in Resources */,
-				21078EE71D319E340072E2CB /* Northumbrian.png in Resources */,
+				219233741D320AFB002BC866 /* Bristol.png in Resources */,
 				21078E761D3178840072E2CB /* right.png in Resources */,
+				2192337B1D320AFB002BC866 /* Geordie.png in Resources */,
+				219233761D320AFB002BC866 /* Cambridgeshire.png in Resources */,
 				21078EA41D317E630072E2CB /* Protteries.mp3 in Resources */,
+				219233861D320AFB002BC866 /* Scots.png in Resources */,
 				21078EB51D317E7A0072E2CB /* Yorkshire.mp3 in Resources */,
-				21078EF31D319E340072E2CB /* West Midlands.png in Resources */,
-				21078EDC1D319E340072E2CB /* Cockney.png in Resources */,
-				21078EE81D319E340072E2CB /* Pitmatic.png in Resources */,
 				2107870F1D3125160072E2CB /* Assets.xcassets in Resources */,
-				21078EE21D319E340072E2CB /* Kent.png in Resources */,
 				21078E991D317E630072E2CB /* Devon.mp3 in Resources */,
 				21078E9E1D317E630072E2CB /* Lancashire.mp3 in Resources */,
-				21078EEA1D319E340072E2CB /* Scots.png in Resources */,
-				21078EE31D319E340072E2CB /* Lancashire.png in Resources */,
+				2192337A1D320AFB002BC866 /* East Midlands.png in Resources */,
 				21078EB71D317E810072E2CB /* Ulster English.mp3 in Resources */,
+				219233781D320AFB002BC866 /* Cumbrian.png in Resources */,
+				2192338F1D320AFB002BC866 /* West Midlands.png in Resources */,
 				21078E9D1D317E630072E2CB /* Kent.mp3 in Resources */,
-				21078EF01D319E340072E2CB /* Ulster Scots.png in Resources */,
-				21078EE01D319E340072E2CB /* Geordie.png in Resources */,
 				21078E741D3174AF0072E2CB /* redcircle.png in Resources */,
-				21078EDF1D319E340072E2CB /* East Midlands.png in Resources */,
+				219233941D320DC5002BC866 /* pause4.png in Resources */,
+				2192334B1D31FA54002BC866 /* close.png in Resources */,
+				2192338E1D320AFB002BC866 /* West Country.png in Resources */,
+				2192334D1D3203AE002BC866 /* play3.png in Resources */,
 				21078EB41D317E7A0072E2CB /* West Midlands.mp3 in Resources */,
-				21078EE11D319E340072E2CB /* Highland Scottish.png in Resources */,
-				21078EE91D319E340072E2CB /* Protteries.png in Resources */,
+				219233901D320AFB002BC866 /* Yorkshire.png in Resources */,
 				21078EA21D317E630072E2CB /* Northumbrian.mp3 in Resources */,
 				21078E9A1D317E630072E2CB /* East Midlands.mp3 in Resources */,
 				2107870D1D3125160072E2CB /* Main.storyboard in Resources */,
-				21078EEE1D319E340072E2CB /* Sussex.png in Resources */,
-				21078EEF1D319E340072E2CB /* Ulster English.png in Resources */,
 				21078E961D317E630072E2CB /* Cambridgeshire.mp3 in Resources */,
+				2192338C1D320AFB002BC866 /* Ulster Scots.png in Resources */,
 				219233331D31C6B8002BC866 /* 2backbut.png in Resources */,
+				219233891D320AFB002BC866 /* Suffolk.png in Resources */,
+				2192338D1D320AFB002BC866 /* Welsh English.png in Resources */,
 				21078E951D317E630072E2CB /* Brummie.mp3 in Resources */,
+				2192337D1D320AFB002BC866 /* Kent.png in Resources */,
 				21078E721D316D400072E2CB /* backbut.png in Resources */,
 				21078EA51D317E630072E2CB /* Scots.mp3 in Resources */,
 				21078EA11D317E630072E2CB /* Norfolk.mp3 in Resources */,
 				21078E9C1D317E630072E2CB /* Highland Scottish.mp3 in Resources */,
-				21078EE61D319E340072E2CB /* Norfolk.png in Resources */,
-				21078EDE1D319E340072E2CB /* Devon.png in Resources */,
-				21078EF21D319E340072E2CB /* West Country.png in Resources */,
 				21078E9B1D317E630072E2CB /* Geordie.mp3 in Resources */,
+				219233881D320AFB002BC866 /* South East.png in Resources */,
+				219233811D320AFB002BC866 /* map.png in Resources */,
+				219233961D320DE2002BC866 /* 4back.png in Resources */,
+				219233871D320AFB002BC866 /* Scouse.png in Resources */,
+				219233981D320DED002BC866 /* stop4.png in Resources */,
+				2192337F1D320AFB002BC866 /* Mancunian.png in Resources */,
 				21078EA31D317E630072E2CB /* Pitmatic.mp3 in Resources */,
+				219233831D320AFB002BC866 /* Northumbrian.png in Resources */,
+				2192338A1D320AFB002BC866 /* Sussex.png in Resources */,
+				2192337C1D320AFB002BC866 /* Highland Scottish.png in Resources */,
 				21078E701D315B490072E2CB /* 1.png in Resources */,
 				21078EB31D317E7A0072E2CB /* West Country.mp3 in Resources */,
-				21078EEB1D319E340072E2CB /* Scouse.png in Resources */,
 				2192333D1D31D596002BC866 /* mainBack.png in Resources */,
-				21078EF41D319E340072E2CB /* Yorkshire.png in Resources */,
+				219233791D320AFB002BC866 /* Devon.png in Resources */,
 				21078EA71D317E630072E2CB /* South East.mp3 in Resources */,
 				21078EB01D317E7A0072E2CB /* Suffolk.mp3 in Resources */,
-				21078ED91D319E340072E2CB /* Bristol.png in Resources */,
-				21078EE51D319E340072E2CB /* Manx English.png in Resources */,
+				219233841D320AFB002BC866 /* Pitmatic.png in Resources */,
+				219233731D320AFB002BC866 /* Anglo-Cornish.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +542,7 @@
 				2107871A1D3127850072E2CB /* MainController.swift in Sources */,
 				219233431D31E76C002BC866 /* MyCell.swift in Sources */,
 				21078EB91D3180930072E2CB /* Dialects.swift in Sources */,
+				219233531D320713002BC866 /* MapController.swift in Sources */,
 				210787081D3125160072E2CB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
