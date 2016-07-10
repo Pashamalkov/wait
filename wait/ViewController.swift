@@ -9,6 +9,9 @@
 import UIKit
 import AVFoundation
 
+
+let GREEN = UIColor(red: 120/255, green: 220/255, blue: 65/255, alpha: 1.0)
+let RED = UIColor(red: 236/255, green: 57/155, blue: 50/255,alpha: 1.0)
 class ViewController: UIViewController, AVAudioPlayerDelegate {
 
     
@@ -245,16 +248,30 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         
         if (sender.currentTitle == nameOfSound) {
             
-            sender.backgroundColor = UIColor.greenColor()
+            sender.backgroundColor = GREEN
             rightAnswersNum = rightAnswersNum + 1
             rightAnswersLabel.text = "\(rightAnswersNum)"
             audioPlayer.stop()
             isPlaying = false
             playBut.setImage( UIImage(named: "play.png"), forState: .Normal)
             
+            let defaults = NSUserDefaults.standardUserDefaults()
+            
+            
+            
+            if (NSUserDefaults.standardUserDefaults().objectForKey("record") != nil) {
+                let i = defaults.integerForKey("record")
+                defaults.setInteger(i+1, forKey: "record")
+            }
+            else{
+                defaults.setInteger(1, forKey: "record")
+            }
+            
+            
+            
         } else {
             
-            sender.backgroundColor = UIColor.redColor()
+            sender.backgroundColor = RED
             falseAnswersNum = falseAnswersNum + 1
             falseAnswersLabel.text = "\(falseAnswersNum)"
             audioPlayer.stop()
@@ -265,7 +282,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         for i in 1...4 {
             let button = self.view.viewWithTag(i) as! UIButton
             if i == trueAnswer {
-                button.layer.borderColor = UIColor.greenColor().CGColor
+                button.layer.borderColor = GREEN.CGColor
             }
         }
         

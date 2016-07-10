@@ -71,14 +71,14 @@ class MapController: UIViewController , AVAudioPlayerDelegate, UIGestureRecogniz
                 if dialect == self.nameOfSound {
                     
                     MapView.layer.borderWidth = 3
-                    MapView.layer.borderColor  = UIColor.greenColor().CGColor
+                    MapView.layer.borderColor  = GREEN.CGColor
                     
                     
                     
                 } else {
                     
                     MapView.layer.borderWidth = 3
-                    MapView.layer.borderColor = UIColor.redColor().CGColor
+                    MapView.layer.borderColor = RED.CGColor
                 }
                 
                 

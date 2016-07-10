@@ -101,6 +101,14 @@
 		219233941D320DC5002BC866 /* pause4.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233931D320DC5002BC866 /* pause4.png */; };
 		219233961D320DE2002BC866 /* 4back.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233951D320DE2002BC866 /* 4back.png */; };
 		219233981D320DED002BC866 /* stop4.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233971D320DED002BC866 /* stop4.png */; };
+		2192339A1D3228F3002BC866 /* wall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 219233991D3228F3002BC866 /* wall.jpg */; };
+		2192339C1D322A8A002BC866 /* two.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2192339B1D322A8A002BC866 /* two.jpg */; };
+		2192339E1D32315B002BC866 /* text.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2192339D1D32315B002BC866 /* text.jpg */; };
+		219233A01D323EA4002BC866 /* wordcloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 2192339F1D323EA4002BC866 /* wordcloud.png */; };
+		219233A21D3254C4002BC866 /* achievments.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233A11D3254C4002BC866 /* achievments.png */; };
+		219233A41D32557F002BC866 /* Achievments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219233A31D32557F002BC866 /* Achievments.swift */; };
+		219233A61D325607002BC866 /* back5.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233A51D325607002BC866 /* back5.png */; };
+		219233A81D32576E002BC866 /* back6.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233A71D32576E002BC866 /* back6.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -200,6 +208,14 @@
 		219233931D320DC5002BC866 /* pause4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause4.png; sourceTree = "<group>"; };
 		219233951D320DE2002BC866 /* 4back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4back.png; sourceTree = "<group>"; };
 		219233971D320DED002BC866 /* stop4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop4.png; sourceTree = "<group>"; };
+		219233991D3228F3002BC866 /* wall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wall.jpg; sourceTree = "<group>"; };
+		2192339B1D322A8A002BC866 /* two.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = two.jpg; sourceTree = "<group>"; };
+		2192339D1D32315B002BC866 /* text.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = text.jpg; sourceTree = "<group>"; };
+		2192339F1D323EA4002BC866 /* wordcloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wordcloud.png; sourceTree = "<group>"; };
+		219233A11D3254C4002BC866 /* achievments.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = achievments.png; sourceTree = "<group>"; };
+		219233A31D32557F002BC866 /* Achievments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Achievments.swift; sourceTree = "<group>"; };
+		219233A51D325607002BC866 /* back5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back5.png; sourceTree = "<group>"; };
+		219233A71D32576E002BC866 /* back6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back6.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,14 +262,21 @@
 				219233341D31C6DB002BC866 /* graycircle.png */,
 				21078E771D317A6D0072E2CB /* play.png */,
 				219233321D31C6B8002BC866 /* 2backbut.png */,
+				2192339B1D322A8A002BC866 /* two.jpg */,
+				219233A11D3254C4002BC866 /* achievments.png */,
 				219233441D31EC7F002BC866 /* back3.png */,
+				219233991D3228F3002BC866 /* wall.jpg */,
+				2192339F1D323EA4002BC866 /* wordcloud.png */,
 				219233911D320DC0002BC866 /* play4.png */,
 				2192333E1D31E55C002BC866 /* 3back.png */,
+				219233A51D325607002BC866 /* back5.png */,
 				219233951D320DE2002BC866 /* 4back.png */,
 				219233971D320DED002BC866 /* stop4.png */,
 				2192334A1D31FA54002BC866 /* close.png */,
 				21078E791D317ABD0072E2CB /* stop.png */,
+				219233A71D32576E002BC866 /* back6.png */,
 				219233931D320DC5002BC866 /* pause4.png */,
+				2192339D1D32315B002BC866 /* text.jpg */,
 				2192334E1D3203B4002BC866 /* pause3.png */,
 				21078E7B1D317C190072E2CB /* pause.png */,
 				2192334C1D3203AE002BC866 /* play3.png */,
@@ -271,6 +294,7 @@
 				219233401D31E5B3002BC866 /* TableController.swift */,
 				219233421D31E76C002BC866 /* MyCell.swift */,
 				219233521D320713002BC866 /* MapController.swift */,
+				219233A31D32557F002BC866 /* Achievments.swift */,
 			);
 			path = wait;
 			sourceTree = "<group>";
@@ -441,6 +465,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2192339C1D322A8A002BC866 /* two.jpg in Resources */,
 				21078EA01D317E630072E2CB /* Manx English.mp3 in Resources */,
 				219233801D320AFB002BC866 /* Manx English.png in Resources */,
 				219233371D31C7C6002BC866 /* restart.png in Resources */,
@@ -458,6 +483,7 @@
 				219233351D31C6DB002BC866 /* graycircle.png in Resources */,
 				21078E7F1D317E4E0072E2CB /* Anglo-Cornish.mp3 in Resources */,
 				2192333F1D31E55C002BC866 /* 3back.png in Resources */,
+				219233A61D325607002BC866 /* back5.png in Resources */,
 				210787121D3125160072E2CB /* LaunchScreen.storyboard in Resources */,
 				21078EA61D317E630072E2CB /* Scouse.mp3 in Resources */,
 				21078EA91D317E700072E2CB /* Sussex.mp3 in Resources */,
@@ -467,6 +493,7 @@
 				219233921D320DC0002BC866 /* play4.png in Resources */,
 				219233751D320AFB002BC866 /* Brummie.png in Resources */,
 				21078E781D317A6D0072E2CB /* play.png in Resources */,
+				219233A01D323EA4002BC866 /* wordcloud.png in Resources */,
 				219233821D320AFB002BC866 /* Norfolk.png in Resources */,
 				21078E941D317E630072E2CB /* Bristol.mp3 in Resources */,
 				21078E7C1D317C190072E2CB /* pause.png in Resources */,
@@ -484,11 +511,13 @@
 				21078EB71D317E810072E2CB /* Ulster English.mp3 in Resources */,
 				219233781D320AFB002BC866 /* Cumbrian.png in Resources */,
 				2192338F1D320AFB002BC866 /* West Midlands.png in Resources */,
+				219233A21D3254C4002BC866 /* achievments.png in Resources */,
 				21078E9D1D317E630072E2CB /* Kent.mp3 in Resources */,
 				21078E741D3174AF0072E2CB /* redcircle.png in Resources */,
 				219233941D320DC5002BC866 /* pause4.png in Resources */,
 				2192334B1D31FA54002BC866 /* close.png in Resources */,
 				2192338E1D320AFB002BC866 /* West Country.png in Resources */,
+				219233A81D32576E002BC866 /* back6.png in Resources */,
 				2192334D1D3203AE002BC866 /* play3.png in Resources */,
 				21078EB41D317E7A0072E2CB /* West Midlands.mp3 in Resources */,
 				219233901D320AFB002BC866 /* Yorkshire.png in Resources */,
@@ -522,8 +551,10 @@
 				2192333D1D31D596002BC866 /* mainBack.png in Resources */,
 				219233791D320AFB002BC866 /* Devon.png in Resources */,
 				21078EA71D317E630072E2CB /* South East.mp3 in Resources */,
+				2192339A1D3228F3002BC866 /* wall.jpg in Resources */,
 				21078EB01D317E7A0072E2CB /* Suffolk.mp3 in Resources */,
 				219233841D320AFB002BC866 /* Pitmatic.png in Resources */,
+				2192339E1D32315B002BC866 /* text.jpg in Resources */,
 				219233731D320AFB002BC866 /* Anglo-Cornish.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -540,6 +571,7 @@
 				2192332F1D31B6B6002BC866 /* SecondView.swift in Sources */,
 				219233391D31D1D5002BC866 /* MyCustomSegue.swift in Sources */,
 				2107871A1D3127850072E2CB /* MainController.swift in Sources */,
+				219233A41D32557F002BC866 /* Achievments.swift in Sources */,
 				219233431D31E76C002BC866 /* MyCell.swift in Sources */,
 				21078EB91D3180930072E2CB /* Dialects.swift in Sources */,
 				219233531D320713002BC866 /* MapController.swift in Sources */,

@@ -19,6 +19,7 @@ class TableController: UIViewController,UICollectionViewDelegate, UICollectionVi
     
     @IBOutlet weak var DetailBar: UIView!
     
+    @IBOutlet weak var aqualizerView: UIView!
     @IBOutlet weak var DetailText: UITextView!
     @IBOutlet weak var DetailIMage: UIImageView!
     @IBOutlet weak var playButton: UIButton!
@@ -39,7 +40,7 @@ class TableController: UIViewController,UICollectionViewDelegate, UICollectionVi
     }
     
     
-    
+    var timer : NSTimer!
     override func viewDidLoad() {
         super.viewDidLoad()
         myCollectionView.delegate = self
@@ -47,13 +48,60 @@ class TableController: UIViewController,UICollectionViewDelegate, UICollectionVi
         back.image = UIImage(named: "3back.png")
         DetailBar.hidden = true
         
+        
+        timer = nil
+        timer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: #selector(self.updateTime), userInfo: nil, repeats: true)
+        
     }
     
     
+    var randomFrame : CGFloat = 0
+    
+    func updateTime()
+    {
+        
+        if (isPlaying) {
+            
+            for view in aqualizerView.subviews {
+                
+                if let imageView : UIImageView  = view as? UIImageView {
+                    randomFrame = CGFloat(arc4random_uniform(UInt32(10))+1)/10
+                    
+                    UIView.animateWithDuration(1, animations: {
+                        imageView.transform = CGAffineTransformMakeScale(1, 1*self.randomFrame)
+                    })
+                    
+                }
+                
+            }
+            
+        }
+        
+        //timeLabel.text = "\(minPart):\(secPart)"
+    }
+    
+
+    
     func audioPlayerDidFinishPlaying(player: AVAudioPlayer, successfully flag: Bool) {
         audioPlayer.currentTime = 0.0
+//        for view in self.aqualizerView.subviews {
+//            
+//            if let imageView : UIImageView  = view as? UIImageView {
+//                
+//                UIView.animateWithDuration(2, animations: {
+//                    imageView.transform = CGAffineTransformMakeScale(1, 0)
+//                })
+//            }
+//            
+//        }
+//        
         isPlaying = false
         playButton.setImage( UIImage(named: "play3.png"), forState: .Normal)
+        
+        
+   
+        
+        
     }
     
     
@@ -124,17 +172,28 @@ class TableController: UIViewController,UICollectionViewDelegate, UICollectionVi
         DetailIMage.image = UIImage(named: "\(dialects[indexPath.item]).png")
         nameOfSound = "\(dialects[indexPath.item])"
         
-
-      
         
+        for view in aqualizerView.subviews {
+            
+            if let imageView : UIImageView  = view as? UIImageView {
+                
+                    imageView.transform = CGAffineTransformMakeScale(1, 0)
+                
+            }
+            
+        }
+
+
+        let frame = DetailBar.frame
+        self.DetailBar.frame.origin.y = 900
+        self.DetailBar.hidden = false
         UIView.animateWithDuration(0.6, animations: {
             
             
             //cell.mapImage.frame = self.DetailIMage.frame
             //cell.bounds = self.DetailIMage.bounds
             
-            self.DetailBar.hidden = false
-            
+            self.DetailBar.frame = frame
         
         })
         

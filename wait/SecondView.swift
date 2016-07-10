@@ -20,6 +20,7 @@ class SecondView: UIViewController, AVAudioPlayerDelegate {
     @IBOutlet weak var pointsRight1: UIButton!
     @IBOutlet weak var pointsRight2: UIButton!
     
+    @IBOutlet weak var aqualizerView: UIView!
     var audioPlayer = AVAudioPlayer()
     
     var nameOfSound = ""
@@ -33,6 +34,35 @@ class SecondView: UIViewController, AVAudioPlayerDelegate {
                 self.dismissViewControllerAnimated(true, completion: nil)
         
     }
+    
+
+    var randomFrame : CGFloat = 0
+    
+    func updateTime()
+    {
+        
+        if (true) {
+            
+            for view in aqualizerView.subviews {
+                
+                if let imageView : UIImageView  = view as? UIImageView {
+                    randomFrame = CGFloat(arc4random_uniform(UInt32(10))+1)/10
+                    
+                    UIView.animateWithDuration(1, animations: {
+                        imageView.transform = CGAffineTransformMakeScale(1, 1*self.randomFrame)
+                    })
+                    
+                }
+                
+            }
+            
+        }
+
+        //timeLabel.text = "\(minPart):\(secPart)"
+    }
+    
+    var timer : NSTimer!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -58,6 +88,21 @@ class SecondView: UIViewController, AVAudioPlayerDelegate {
         
         
         newTask()
+        
+        
+        timer = nil
+        timer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: #selector(self.updateTime), userInfo: nil, repeats: true)
+        
+        for view in aqualizerView.subviews {
+            
+            if let imageView : UIImageView  = view as? UIImageView {
+                
+                imageView.transform = CGAffineTransformMakeScale(1, 0)
+                
+            }
+            
+        }
+
     }
     
     
@@ -253,7 +298,7 @@ class SecondView: UIViewController, AVAudioPlayerDelegate {
         
         if (sender.currentTitle == nameOfSound) {
             
-            sender.backgroundColor = UIColor.greenColor()
+            sender.backgroundColor = GREEN
             
             if sender.tag > 4 {
                 
@@ -283,7 +328,7 @@ class SecondView: UIViewController, AVAudioPlayerDelegate {
         } else {
             
             
-            sender.backgroundColor = UIColor.redColor()
+            sender.backgroundColor = RED
             
             if sender.tag > 4 {
                 
