@@ -13,7 +13,6 @@
 		2107870F1D3125160072E2CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2107870E1D3125160072E2CB /* Assets.xcassets */; };
 		210787121D3125160072E2CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210787101D3125160072E2CB /* LaunchScreen.storyboard */; };
 		2107871A1D3127850072E2CB /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210787191D3127850072E2CB /* MainController.swift */; };
-		2107871C1D312FF70072E2CB /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2107871B1D312FF70072E2CB /* back.jpg */; };
 		21078E701D315B490072E2CB /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078E6F1D315B490072E2CB /* 1.png */; };
 		21078E721D316D400072E2CB /* backbut.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078E711D316D400072E2CB /* backbut.png */; };
 		21078E741D3174AF0072E2CB /* redcircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078E731D3174AF0072E2CB /* redcircle.png */; };
@@ -82,6 +81,16 @@
 		21078EF41D319E340072E2CB /* Yorkshire.png in Resources */ = {isa = PBXBuildFile; fileRef = 21078ED71D319E340072E2CB /* Yorkshire.png */; };
 		2192332F1D31B6B6002BC866 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2192332E1D31B6B6002BC866 /* SecondView.swift */; };
 		219233311D31BAEF002BC866 /* 2back.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233301D31BAEF002BC866 /* 2back.png */; };
+		219233331D31C6B8002BC866 /* 2backbut.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233321D31C6B8002BC866 /* 2backbut.png */; };
+		219233351D31C6DB002BC866 /* graycircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233341D31C6DB002BC866 /* graycircle.png */; };
+		219233371D31C7C6002BC866 /* restart.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233361D31C7C6002BC866 /* restart.png */; };
+		219233391D31D1D5002BC866 /* MyCustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219233381D31D1D5002BC866 /* MyCustomSegue.swift */; };
+		2192333B1D31D21C002BC866 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2192333A1D31D21C002BC866 /* UIKit.framework */; };
+		2192333D1D31D596002BC866 /* mainBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 2192333C1D31D596002BC866 /* mainBack.png */; };
+		2192333F1D31E55C002BC866 /* 3back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2192333E1D31E55C002BC866 /* 3back.png */; };
+		219233411D31E5B3002BC866 /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219233401D31E5B3002BC866 /* TableController.swift */; };
+		219233431D31E76C002BC866 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219233421D31E76C002BC866 /* MyCell.swift */; };
+		219233451D31EC80002BC866 /* back3.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233441D31EC7F002BC866 /* back3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,7 +102,6 @@
 		210787111D3125160072E2CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		210787131D3125160072E2CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		210787191D3127850072E2CB /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
-		2107871B1D312FF70072E2CB /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = SOURCE_ROOT; };
 		21078E6F1D315B490072E2CB /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		21078E711D316D400072E2CB /* backbut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backbut.png; sourceTree = "<group>"; };
 		21078E731D3174AF0072E2CB /* redcircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redcircle.png; sourceTree = "<group>"; };
@@ -162,6 +170,16 @@
 		21078ED71D319E340072E2CB /* Yorkshire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yorkshire.png; sourceTree = "<group>"; };
 		2192332E1D31B6B6002BC866 /* SecondView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		219233301D31BAEF002BC866 /* 2back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2back.png; sourceTree = "<group>"; };
+		219233321D31C6B8002BC866 /* 2backbut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2backbut.png; sourceTree = "<group>"; };
+		219233341D31C6DB002BC866 /* graycircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graycircle.png; sourceTree = "<group>"; };
+		219233361D31C7C6002BC866 /* restart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restart.png; sourceTree = "<group>"; };
+		219233381D31D1D5002BC866 /* MyCustomSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomSegue.swift; sourceTree = "<group>"; };
+		2192333A1D31D21C002BC866 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2192333C1D31D596002BC866 /* mainBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainBack.png; sourceTree = "<group>"; };
+		2192333E1D31E55C002BC866 /* 3back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3back.png; sourceTree = "<group>"; };
+		219233401D31E5B3002BC866 /* TableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
+		219233421D31E76C002BC866 /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		219233441D31EC7F002BC866 /* back3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +187,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2192333B1D31D21C002BC866 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +197,7 @@
 		210786FB1D3125160072E2CB = {
 			isa = PBXGroup;
 			children = (
+				2192333A1D31D21C002BC866 /* UIKit.framework */,
 				210787061D3125160072E2CB /* wait */,
 				210787051D3125160072E2CB /* Products */,
 			);
@@ -198,10 +218,15 @@
 				21078E7D1D317E120072E2CB /* dialects */,
 				210787071D3125160072E2CB /* AppDelegate.swift */,
 				21078EB81D3180930072E2CB /* Dialects.swift */,
-				2107871B1D312FF70072E2CB /* back.jpg */,
 				219233301D31BAEF002BC866 /* 2back.png */,
 				21078E711D316D400072E2CB /* backbut.png */,
+				219233361D31C7C6002BC866 /* restart.png */,
+				2192333C1D31D596002BC866 /* mainBack.png */,
+				219233341D31C6DB002BC866 /* graycircle.png */,
 				21078E771D317A6D0072E2CB /* play.png */,
+				219233321D31C6B8002BC866 /* 2backbut.png */,
+				219233441D31EC7F002BC866 /* back3.png */,
+				2192333E1D31E55C002BC866 /* 3back.png */,
 				21078E791D317ABD0072E2CB /* stop.png */,
 				21078E7B1D317C190072E2CB /* pause.png */,
 				21078E751D3178840072E2CB /* right.png */,
@@ -214,6 +239,9 @@
 				2107870E1D3125160072E2CB /* Assets.xcassets */,
 				210787101D3125160072E2CB /* LaunchScreen.storyboard */,
 				210787131D3125160072E2CB /* Info.plist */,
+				219233381D31D1D5002BC866 /* MyCustomSegue.swift */,
+				219233401D31E5B3002BC866 /* TableController.swift */,
+				219233421D31E76C002BC866 /* MyCell.swift */,
 			);
 			path = wait;
 			sourceTree = "<group>";
@@ -385,6 +413,7 @@
 			files = (
 				21078EEC1D319E340072E2CB /* South East.png in Resources */,
 				21078EA01D317E630072E2CB /* Manx English.mp3 in Resources */,
+				219233371D31C7C6002BC866 /* restart.png in Resources */,
 				21078EED1D319E340072E2CB /* Suffolk.png in Resources */,
 				21078ED81D319E340072E2CB /* Anglo-Cornish.png in Resources */,
 				21078E981D317E630072E2CB /* Cumbrian.mp3 in Resources */,
@@ -393,11 +422,13 @@
 				21078EDB1D319E340072E2CB /* Cambridgeshire.png in Resources */,
 				21078EB11D317E7A0072E2CB /* Ulster Scots.mp3 in Resources */,
 				21078EF11D319E340072E2CB /* Welsh English.png in Resources */,
-				2107871C1D312FF70072E2CB /* back.jpg in Resources */,
 				21078EDD1D319E340072E2CB /* Cumbrian.png in Resources */,
+				219233451D31EC80002BC866 /* back3.png in Resources */,
 				21078E7A1D317ABD0072E2CB /* stop.png in Resources */,
 				219233311D31BAEF002BC866 /* 2back.png in Resources */,
+				219233351D31C6DB002BC866 /* graycircle.png in Resources */,
 				21078E7F1D317E4E0072E2CB /* Anglo-Cornish.mp3 in Resources */,
+				2192333F1D31E55C002BC866 /* 3back.png in Resources */,
 				210787121D3125160072E2CB /* LaunchScreen.storyboard in Resources */,
 				21078EA61D317E630072E2CB /* Scouse.mp3 in Resources */,
 				21078EA91D317E700072E2CB /* Sussex.mp3 in Resources */,
@@ -435,6 +466,7 @@
 				21078EEE1D319E340072E2CB /* Sussex.png in Resources */,
 				21078EEF1D319E340072E2CB /* Ulster English.png in Resources */,
 				21078E961D317E630072E2CB /* Cambridgeshire.mp3 in Resources */,
+				219233331D31C6B8002BC866 /* 2backbut.png in Resources */,
 				21078E951D317E630072E2CB /* Brummie.mp3 in Resources */,
 				21078E721D316D400072E2CB /* backbut.png in Resources */,
 				21078EA51D317E630072E2CB /* Scots.mp3 in Resources */,
@@ -448,6 +480,7 @@
 				21078E701D315B490072E2CB /* 1.png in Resources */,
 				21078EB31D317E7A0072E2CB /* West Country.mp3 in Resources */,
 				21078EEB1D319E340072E2CB /* Scouse.png in Resources */,
+				2192333D1D31D596002BC866 /* mainBack.png in Resources */,
 				21078EF41D319E340072E2CB /* Yorkshire.png in Resources */,
 				21078EA71D317E630072E2CB /* South East.mp3 in Resources */,
 				21078EB01D317E7A0072E2CB /* Suffolk.mp3 in Resources */,
@@ -463,9 +496,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				219233411D31E5B3002BC866 /* TableController.swift in Sources */,
 				2107870A1D3125160072E2CB /* ViewController.swift in Sources */,
 				2192332F1D31B6B6002BC866 /* SecondView.swift in Sources */,
+				219233391D31D1D5002BC866 /* MyCustomSegue.swift in Sources */,
 				2107871A1D3127850072E2CB /* MainController.swift in Sources */,
+				219233431D31E76C002BC866 /* MyCell.swift in Sources */,
 				21078EB91D3180930072E2CB /* Dialects.swift in Sources */,
 				210787081D3125160072E2CB /* AppDelegate.swift in Sources */,
 			);

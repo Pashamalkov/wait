@@ -17,6 +17,8 @@ class SecondView: UIViewController, AVAudioPlayerDelegate {
     
     @IBOutlet weak var pointsLabel2: UILabel!
     @IBOutlet weak var pointsLabel1: UILabel!
+    @IBOutlet weak var pointsRight1: UIButton!
+    @IBOutlet weak var pointsRight2: UIButton!
     
     var audioPlayer = AVAudioPlayer()
     
@@ -24,7 +26,13 @@ class SecondView: UIViewController, AVAudioPlayerDelegate {
     //
     //    var buttons = [UIButton]()
     
-    
+    @IBAction func reloadAudio(sender: AnyObject) {
+    }
+
+    @IBAction func back(sender: AnyObject) {
+                self.dismissViewControllerAnimated(true, completion: nil)
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -250,10 +258,14 @@ class SecondView: UIViewController, AVAudioPlayerDelegate {
             if sender.tag > 4 {
                 
                 pointsLabel2.text = String(Int(pointsLabel2.text!)! + 1)
+                let name = checkColor(Int(pointsLabel2.text!)!)
+                pointsRight2.setImage(UIImage(named: name), forState: .Normal)
                 
             } else {
                 
                 pointsLabel1.text = String(Int(pointsLabel1.text!)! + 1)
+                let name = checkColor(Int(pointsLabel1.text!)!)
+                pointsRight1.setImage(UIImage(named: name),forState: .Normal)
             }
             
             
@@ -276,10 +288,14 @@ class SecondView: UIViewController, AVAudioPlayerDelegate {
             if sender.tag > 4 {
                 
                 pointsLabel2.text = String(Int(pointsLabel2.text!)! - 1)
+                let name = checkColor(Int(pointsLabel2.text!)!)
+                pointsRight2.setImage(UIImage(named: name), forState: .Normal)
                 
             } else {
                 
                 pointsLabel1.text = String(Int(pointsLabel1.text!)! - 1)
+                let name = checkColor(Int(pointsLabel1.text!)!)
+                pointsRight1.setImage(UIImage(named: name), forState: .Normal)
             }
             
             if enabletNum < 1 {
@@ -305,10 +321,23 @@ class SecondView: UIViewController, AVAudioPlayerDelegate {
                 }
             }
         }
-        
-        
-        
-        
+    }
+    
+    
+    func checkColor(i:Int) -> String {
+        if(i == 0)
+        {
+            return "graycircle.png"
+        }
+        if(i<0)
+        {
+            return "redcircle.png"
+        }
+        if(i>0)
+        {
+            return "right.png"
+        }
+        return ""
     }
     
 }

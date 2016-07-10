@@ -54,15 +54,25 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         // Dispose of any resources that can be recreated.
     }
     
+    var timer : NSTimer?
     
     override func viewWillAppear(animated: Bool) {
        //
        // loadMyView()
-        setDefault()
-        newTask()
-        _ = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: #selector(self.updateTime), userInfo: nil, repeats: true)
+        
+        timer = nil
+        timer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: #selector(self.updateTime), userInfo: nil, repeats: true)
     }
     
+    
+    override func viewWillDisappear(animated: Bool) {
+        
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        setDefault()
+        newTask()
+    }
     func updateTime()
     {
         sec = sec + 1

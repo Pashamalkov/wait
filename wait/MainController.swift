@@ -15,7 +15,9 @@ class MainController: UIViewController {
         
         //loadMyView()
         
-        Back.image = UIImage(named: "back.jpg")
+        Back.image = UIImage(named: "mainBack.png")
+        
+        
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -33,7 +35,14 @@ class MainController: UIViewController {
        // unloadMyView()
     }
     
+    @IBAction func performCustomSegue(sender: AnyObject) {
+        self.performSegueWithIdentifier("custom", sender: self)
+    }
     
+    @IBAction func loadFisrtView(sender: AnyObject) {
+        self.performSegueWithIdentifier("custom", sender: self)
+        
+    }
     func loadMyView()
     {
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), forBarMetrics: .Default)
