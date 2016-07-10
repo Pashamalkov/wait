@@ -28,8 +28,14 @@ class TableController: UIViewController,UICollectionViewDelegate, UICollectionVi
     }
     @IBAction func CloseBar(sender: AnyObject) {
         DetailBar.hidden = true
+        
+        
+        if(wasPlaying)
+        {
+            audioPlayer.stop()
+        }
+        
         setDefaults()
-        audioPlayer.stop()
     }
     
     
@@ -40,6 +46,7 @@ class TableController: UIViewController,UICollectionViewDelegate, UICollectionVi
         myCollectionView.dataSource = self
         back.image = UIImage(named: "3back.png")
         DetailBar.hidden = true
+        
     }
     
     
@@ -116,7 +123,26 @@ class TableController: UIViewController,UICollectionViewDelegate, UICollectionVi
         
         DetailIMage.image = UIImage(named: "\(dialects[indexPath.item]).png")
         nameOfSound = "\(dialects[indexPath.item])"
-        DetailBar.hidden = false
+        
+
+      
+        
+        UIView.animateWithDuration(0.6, animations: {
+            
+            
+            //cell.mapImage.frame = self.DetailIMage.frame
+            //cell.bounds = self.DetailIMage.bounds
+            
+            self.DetailBar.hidden = false
+            
+        
+        })
+        
+      
+        
+        
+        
+        
         DetailText.text  = descriptions[nameOfSound]
     }
     
