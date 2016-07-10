@@ -55,6 +55,20 @@ class TableController: UIViewController,UICollectionViewDelegate, UICollectionVi
     }
     
     
+    @IBAction func Call(sender: AnyObject) {
+        
+        
+        
+        
+        
+        
+        
+    }
+    
+    
+    
+    
+    
     var randomFrame : CGFloat = 0
     
     func updateTime()

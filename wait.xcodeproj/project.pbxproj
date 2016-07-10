@@ -109,6 +109,9 @@
 		219233A41D32557F002BC866 /* Achievments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219233A31D32557F002BC866 /* Achievments.swift */; };
 		219233A61D325607002BC866 /* back5.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233A51D325607002BC866 /* back5.png */; };
 		219233A81D32576E002BC866 /* back6.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233A71D32576E002BC866 /* back6.png */; };
+		219233AA1D3268D9002BC866 /* wordcloud2.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233A91D3268D9002BC866 /* wordcloud2.png */; };
+		219233AC1D326978002BC866 /* wordcloud2.png in Resources */ = {isa = PBXBuildFile; fileRef = 219233AB1D326978002BC866 /* wordcloud2.png */; };
+		219233AE1D326A7D002BC866 /* wordcloud4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 219233AD1D326A7D002BC866 /* wordcloud4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -216,6 +219,9 @@
 		219233A31D32557F002BC866 /* Achievments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Achievments.swift; sourceTree = "<group>"; };
 		219233A51D325607002BC866 /* back5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back5.png; sourceTree = "<group>"; };
 		219233A71D32576E002BC866 /* back6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back6.png; sourceTree = "<group>"; };
+		219233A91D3268D9002BC866 /* wordcloud2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wordcloud2.png; sourceTree = "<group>"; };
+		219233AB1D326978002BC866 /* wordcloud2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wordcloud2.png; sourceTree = "<group>"; };
+		219233AD1D326A7D002BC866 /* wordcloud4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wordcloud4.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,10 +278,13 @@
 				219233A51D325607002BC866 /* back5.png */,
 				219233951D320DE2002BC866 /* 4back.png */,
 				219233971D320DED002BC866 /* stop4.png */,
+				219233A91D3268D9002BC866 /* wordcloud2.png */,
 				2192334A1D31FA54002BC866 /* close.png */,
 				21078E791D317ABD0072E2CB /* stop.png */,
 				219233A71D32576E002BC866 /* back6.png */,
 				219233931D320DC5002BC866 /* pause4.png */,
+				219233AB1D326978002BC866 /* wordcloud2.png */,
+				219233AD1D326A7D002BC866 /* wordcloud4.jpg */,
 				2192339D1D32315B002BC866 /* text.jpg */,
 				2192334E1D3203B4002BC866 /* pause3.png */,
 				21078E7B1D317C190072E2CB /* pause.png */,
@@ -504,6 +513,7 @@
 				21078EA41D317E630072E2CB /* Protteries.mp3 in Resources */,
 				219233861D320AFB002BC866 /* Scots.png in Resources */,
 				21078EB51D317E7A0072E2CB /* Yorkshire.mp3 in Resources */,
+				219233AC1D326978002BC866 /* wordcloud2.png in Resources */,
 				2107870F1D3125160072E2CB /* Assets.xcassets in Resources */,
 				21078E991D317E630072E2CB /* Devon.mp3 in Resources */,
 				21078E9E1D317E630072E2CB /* Lancashire.mp3 in Resources */,
@@ -526,7 +536,9 @@
 				2107870D1D3125160072E2CB /* Main.storyboard in Resources */,
 				21078E961D317E630072E2CB /* Cambridgeshire.mp3 in Resources */,
 				2192338C1D320AFB002BC866 /* Ulster Scots.png in Resources */,
+				219233AE1D326A7D002BC866 /* wordcloud4.jpg in Resources */,
 				219233331D31C6B8002BC866 /* 2backbut.png in Resources */,
+				219233AA1D3268D9002BC866 /* wordcloud2.png in Resources */,
 				219233891D320AFB002BC866 /* Suffolk.png in Resources */,
 				2192338D1D320AFB002BC866 /* Welsh English.png in Resources */,
 				21078E951D317E630072E2CB /* Brummie.mp3 in Resources */,
