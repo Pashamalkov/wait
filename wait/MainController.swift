@@ -18,8 +18,8 @@ class MainController: UIViewController {
         Back.image = UIImage(named: "mainBack.png")
         pic1.image = UIImage(named: "wordcloud.png")
         pic2.image = UIImage(named: "wordcloud2.png")
-        pic3.image = UIImage(named: "text.jpg")
-        pic4.image = UIImage(named: "wordcloud4.jpg")
+        pic3.image = UIImage(named: "text.png")
+        pic4.image = UIImage(named: "wordcloud4.png")
         super.viewDidLoad()
         
         

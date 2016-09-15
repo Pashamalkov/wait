@@ -9,9 +9,11 @@
 import UIKit
 import AVFoundation
 
-class TableController: UIViewController,UICollectionViewDelegate, UICollectionViewDataSource,AVAudioPlayerDelegate {
+class TableController: UIViewController,UICollectionViewDelegate, UICollectionViewDataSource,AVAudioPlayerDelegate, VoxImplantDelegate  {
 
+    var delegate : VoxImplantDelegate? //= VoxImplant.getVoxDelegate()
     
+    var sdk = VoxImplant.getInstance()
     
     @IBOutlet weak var closeBar: UIButton!
     @IBOutlet weak var back: UIImageView!
@@ -52,13 +54,49 @@ class TableController: UIViewController,UICollectionViewDelegate, UICollectionVi
         timer = nil
         timer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: #selector(self.updateTime), userInfo: nil, repeats: true)
         
+        sdk.voxDelegate = self
+        sdk.connect()
+        
+    }
+    
+    func onConnectionSuccessful() {
+        print("good")
+        sdk.loginWithUsername("Pavel@wait.pashamalkov.voximplant.com", andPassword: "463761637qwe")
+        print("2")
+        
+        
+    }
+    
+    func onConnectionFailedWithError(reason: String!) {
+        print(reason)
+        
+    }
+    
+    func onLoginSuccessfulWithDisplayName(displayName: String!) {
+        print("3");
+        print(displayName)
+    }
+    
+    
+    
+    func onLoginFailedWithErrorCode(errorCode: NSNumber!) {
+        print("4");
+        print(errorCode)
     }
     
     
     @IBAction func Call(sender: AnyObject) {
         
         
-        
+        sdk = VoxImplant.getInstance()
+        let num = "79854890333"
+        //Charset.forName("UTF-8").encode(num)
+        let value = String(UTF8String: num.cStringUsingEncoding(NSUTF8StringEncoding)!)
+        let activeCallId : NSString = sdk.createCall(value, withVideo: false, andCustomData: nil)
+        print("6")
+        let headers = [String : String]()
+        sdk.attachAudioTo(activeCallId as String)
+        sdk.startCall(activeCallId as String, withHeaders: headers)
         
         
         

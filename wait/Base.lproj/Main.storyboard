@@ -25,7 +25,7 @@
                                         <rect key="frame" x="166" y="211" width="132" height="63"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.94117647058823528" green="0.83921568627450982" blue="0.45098039215686275" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" title="Button">
+                                        <state key="normal" title="TWO">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
@@ -36,7 +36,7 @@
                                         <rect key="frame" x="15" y="497" width="132" height="64"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.7725490196" green="0.61176470589999998" blue="0.76470588240000004" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
-                                        <state key="normal" title="Button">
+                                        <state key="normal" title="HISTORY">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
@@ -47,7 +47,7 @@
                                         <rect key="frame" x="166" y="497" width="132" height="63.5"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.8980392157" green="0.45882352939999999" blue="0.28627450980000002" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
-                                        <state key="normal" title="Button">
+                                        <state key="normal" title="MAP">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
@@ -58,7 +58,7 @@
                                         <rect key="frame" x="15" y="211" width="132" height="63"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.68235294117647061" green="0.8784313725490196" blue="0.70196078431372544" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" title="Button">
+                                        <state key="normal" title="ONE">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
@@ -683,14 +683,6 @@
                                             <action selector="playButton:" destination="Yai-d5-yhU" eventType="touchUpInside" id="YBM-Iv-TbK"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="f5a-kb-Rcq">
-                                        <rect key="frame" x="226" y="513" width="46" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button"/>
-                                        <connections>
-                                            <action selector="Call:" destination="Yai-d5-yhU" eventType="touchUpInside" id="E65-Jq-92q"/>
-                                        </connections>
-                                    </button>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" id="gkh-uI-KWj">
                                         <rect key="frame" x="17" y="305" width="283" height="190"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -698,6 +690,14 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="f5a-kb-Rcq">
+                                        <rect key="frame" x="231" y="508" width="35" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="phone.png"/>
+                                        <connections>
+                                            <action selector="Call:" destination="Yai-d5-yhU" eventType="touchUpInside" id="E65-Jq-92q"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
@@ -867,6 +867,7 @@
         <image name="backbut.png" width="54" height="54"/>
         <image name="close.png" width="54" height="54"/>
         <image name="graycircle.png" width="54" height="54"/>
+        <image name="phone.png" width="512" height="512"/>
         <image name="play.png" width="54" height="54"/>
         <image name="play3.png" width="54" height="54"/>
         <image name="play4.png" width="54" height="54"/>
