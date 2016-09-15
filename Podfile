@@ -1,5 +1,5 @@
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, ‘8.0’
-target ‘Wait’ do
+target ‘wait’ do
 pod 'VoxImplantSDK'
 end
